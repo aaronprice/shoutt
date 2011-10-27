@@ -1,0 +1,183 @@
+#river {
+	width: 730px;
+}
+
+#river li {
+	list-style: none;
+	padding: 5px 0;
+	margin: 15px 0;
+	clear: left;
+	height: 80px;
+	width: 730px;
+}
+
+#river li.author{
+	background-color: #FFC;
+}
+
+#river li a img {
+	margin: 5px 10px 0 0;
+	padding: 2px;
+	border: 1px solid #ccc;
+	float: left;
+	display: block;
+	position: relative;
+	top: -1px;
+}
+
+#river h2 {
+	font-size: 18px;
+	padding: 0 0 5px 0;
+	width: 530px;
+	height: 20px;
+	overflow: hidden;
+}
+
+#river h2 img {
+	float: none;
+	display: inline;
+	border: none;
+	padding: 0;
+	margin: 5px 0 0 5px;
+}
+
+.vote-col {
+	width: 40px;
+	float: left;
+	margin: 5px 10px 0 0;
+	text-align: center;
+}
+
+.vote-col div {
+	margin: 5px;
+	font-weight: bold;
+}
+
+.vote-col a {
+	font-weight: bold;
+	color: #999;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	padding: 0 5px;
+	background-color: #eee;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	display: block;
+	width: 18px;
+	margin: auto;
+}
+
+.vote-col a:hover, .vote-col .promoted {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	color: #c33;
+}
+
+.admin-options {
+	margin: 0 0 0 20px;
+}
+
+.story-info {
+	float: left;
+	width: 560px;
+}
+
+.story-summary {
+	color: #000;
+	height: 32px;
+	overflow: hidden;
+	margin: 0 0 5px;
+	line-height: 16px;
+}
+
+.story-summary a {
+	color: #333;
+	height: 32px;
+	overflow: hidden;
+	margin: 0 0 5px;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+.story-summary a:hover {
+	color: #000;
+}
+
+.story-details {
+	font-size: 12px;
+	color: #222;
+}
+
+.story-location {
+	color: #777;
+}
+
+#main-content {
+	margin-top: 0;
+}
+
+
+#side-bar {
+	float: right;
+	width: 200px;
+	margin: 20px 0 0;
+	overflow: hidden;
+}
+
+.side-box {
+	border: 2px solid #eee;
+	padding: 5px;
+	margin: 20px 0;
+}
+
+.side-box h4 {
+	padding: 0 0 5px;
+	border-bottom: 1px solid #eee;
+}
+
+label {
+	display: block;
+	margin: 10px 0 0;
+}
+
+input.txt {
+	padding: 2px;
+	width: 180px;
+	margin: 0 0 10px;
+}
+
+#invites_remaining {
+	font-weight: bold;
+}
+
+.demoted {
+	filter: alpha(opacity=30);
+	-moz-opacity: 0.3;
+	opacity: 0.3;
+}
+
+.edit {
+	float: right;
+	position: relative;
+	left: -5px;
+}
+
+#side-menu, #facebook, #youtube {
+	margin: 0 0 20px;
+}
+
+#side-menu ul {
+	border-top: 1px solid #ccc;
+}
+
+#side-menu ul li {
+	list-style: none;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+#youtube_feed .video {
+	margin: 5px 0;
+}
+#youtube_feed a img {
+	border: none;
+}

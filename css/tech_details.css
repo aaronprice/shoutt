@@ -1,0 +1,25 @@
+#profile-menu {
+	padding: 10px 5px;
+	border-bottom: 1px solid #aaa;
+	width: 950px;
+	margin: auto;
+}
+
+#profile-menu div#actual-profile-menu {
+	float: right;
+	margin: 3px 0 0 0;
+}
+
+#profile-menu #user-info {
+	margin: 3px 0 0 0;
+	color: #555;
+}
+
+table {
+	margin: 20px 0;
+	width: 580px;
+}
+
+th {
+	text-align: left;
+}

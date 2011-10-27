@@ -1,0 +1,46 @@
+#profile-menu {
+	padding: 10px 5px;
+	border-bottom: 1px solid #aaa;
+	width: 950px;
+	margin: auto;
+}
+
+#profile-menu div#actual-profile-menu {
+	float: right;
+	margin: 3px 0 0 0;
+}
+
+#profile-menu #user-info {
+	margin: 3px 0 0 0;
+	color: #555;
+}
+
+.report, .score {
+	padding: 5px 3px;
+}
+
+.report {
+	width: 450px;
+	border: 1px solid #aaa;
+	border-right: none;
+}
+
+.score {
+	width: 50px;
+	border: 1px solid #aaa;
+}
+
+#main-content ul {
+	width: 600px;
+	margin: 30px 0;
+}
+
+#main-content li {
+	list-style: none;
+	margin: 15px 0;
+}
+
+.rep-time {
+	color: #777;
+	font-size: 80%;
+}

@@ -1,0 +1,24 @@
+p.loader {
+	padding: 1em 1em 1em 3em;
+	background: transparent url("loader.gif") 1em center no-repeat;
+}
+
+a {
+	text-decoration:  none;
+}
+
+div {
+	padding-top: 10px;
+}
+
+div.firstVideo {
+	padding-top: 0px;
+}
+
+div#channel_div {
+	padding-top: 0px;
+}
+
+div#videos {
+	padding-top: 0px;
+}

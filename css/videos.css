@@ -1,0 +1,73 @@
+#videos {
+	width: 730px;
+}
+
+#videos ul {
+	margin: 0;
+	padding: 0;
+}
+
+#videos li {
+	list-style: none;
+	margin: 15px 0;
+}
+
+#videos h2 {
+	font-size: 18px;
+	padding: 0 0 5px 0;
+	width: 530px;
+	height: 20px;
+	overflow: hidden;
+}
+
+#side-bar {
+	float: right;
+	width: 200px;
+	margin: 20px 0 0;
+}
+
+.side-box {
+	border: 2px solid #eee;
+	padding: 5px;
+	margin: 20px 0;
+}
+
+.side-box h4 {
+	padding: 0 0 5px;
+	border-bottom: 1px solid #eee;
+}
+
+label {
+	display: block;
+	margin: 10px 0 0;
+}
+
+input.txt {
+	padding: 2px;
+	width: 180px;
+	margin: 0 0 10px;
+}
+
+#invites_remaining {
+	font-weight: bold;
+}
+
+#side-menu, #facebook, #youtube {
+	margin: 0 0 20px;
+}
+
+#side-menu ul {
+	border-top: 1px solid #ccc;
+}
+
+#side-menu ul li {
+	list-style: none;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+#youtube_feed .video {
+	margin: 5px 0;
+}
+#youtube_feed a img {
+	border: none;
+}

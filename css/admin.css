@@ -1,0 +1,14 @@
+#admin-menu {	
+	border-bottom: 1px solid #aaa;
+	padding: 10px 5px;
+	width: 950px;
+	margin: auto;
+}
+
+.trash {
+	float: right;
+}
+
+#main-content ul {
+	margin: 0 0 0 20px;
+}

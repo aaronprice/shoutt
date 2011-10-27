@@ -1,0 +1,140 @@
+.rss {
+	float: right;
+	margin: 6px 6px 0 0;
+}
+
+.rss img {
+	border: none;
+}
+
+#top-in {
+	float: right;
+}
+
+#top-in span {
+	margin: 0 0 0 200px;
+}
+
+.menu {
+	width: 960px;
+	margin: auto;
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+}
+
+#sub-menu {
+	padding: 10px 5px;
+	/*border-top: 1px solid #aaa;*/
+	width: 960px;
+	margin: auto;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+ul.topnav {
+	list-style: none;
+	padding: 5px 0;
+	/*margin: 0;*/
+	float: left;
+	/*width: 100%;*/
+	/*background: #222;*/
+	background: #fff;
+	/*font-size: 1.2em;*/
+	font-weight: bold;
+	/*background: url(topnav_bg.gif) repeat-x;*/
+	/*width: 960px;*/
+	width: 900px;
+	margin: auto;
+}
+ul.topnav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 15px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+	z-index: 11;
+}
+
+* html ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a{
+	padding: 5px;
+	/*color: #fff;*/
+	color: #000;
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover, a.subhover {
+	/*background: url(topnav_hover.gif) no-repeat center top;*/
+	background-color: #eee;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 25px;
+	float: left;
+	display: inline-block;
+	padding: 0 0 0 3px;
+	margin: 0 0 0 -3px;
+	background: url('/img/subnav_btn.gif') no-repeat center top;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+}
+ul.topnav li span.subhover {background-color: #eee; background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 25px;
+	/*background: #333;*/
+	background: #ddd;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #ccc;
+	/*border: 1px solid #111;*/
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	/*border-top: 1px solid #252525; /*--Create bevel effect--*/
+	/*border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	/*background: #333 url(dropdown_linkbg.gif) no-repeat 10px center;*/
+	/*background: #eee url(dropdown_linkbg.gif) no-repeat 10px center;*/
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	/*background: #222 url(dropdown_linkbg.gif) no-repeat 10px center;*/
+	/*background: #ddd url(dropdown_linkbg.gif) no-repeat 10px center;*/
+}

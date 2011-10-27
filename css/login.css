@@ -1,0 +1,21 @@
+h3 {
+	margin: 10px 0 5px;
+}
+
+#login {
+	margin: 20px 0;
+}
+
+#forgot {
+	margin: 50px 0 20px;
+}
+
+label {
+	display: block;
+}
+
+input.txt {
+	padding: 2px;
+	width: 200px;
+	margin: 0 0 10px;
+}

@@ -1,0 +1,80 @@
+h3 {
+	margin: 10px 0 5px;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 150px;
+}
+
+label.pref-name {
+	width: 340px;
+	font-weight: bold;
+	color: #555;
+}
+
+br {
+	clear: left;
+}
+
+ul#prefs {
+	border-top: 1px solid #ddd;
+	margin: 20px 0;
+	width: 730px;
+}
+
+ul#prefs li {
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+	padding: 20px 5px;
+}
+
+ul#profile-settings {
+	margin: 48px 0 0;
+	border-top: 1px solid #eee;
+	width: 200px;
+}
+
+ul#profile-settings li {
+	list-style: none;
+	padding: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+#side-bar {
+	float: right;
+	width: 200px;
+}
+
+.side-box {
+	border: 2px solid #eee;
+	padding: 5px;
+	margin: 20px 0;
+}
+
+.side-box h4 {
+	padding: 0 0 5px;
+	border-bottom: 1px solid #eee;
+}
+
+.side-box label {
+	display: block;
+	margin: 10px 0 0;
+	float: none;
+	width: 50px;
+}
+
+input.txt {
+	padding: 2px;
+	width: 180px;
+	margin: 0 0 10px;
+}
+
+#main-content {
+	height: 400px;
+}
+
+#invites_remaining {
+	font-weight: bold;
+}

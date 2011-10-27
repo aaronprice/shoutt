@@ -1,0 +1,35 @@
+label {
+	display: block;
+}
+
+input.txt {
+	padding: 2px;
+	width: 200px;
+	margin: 0 0 10px;
+}
+
+input.captcha {
+	padding: 2px;
+	width: 200px;
+}
+
+h3 {
+	padding: 0 0 10px;
+}
+
+.inv {
+	display: none;
+}
+
+select {
+	margin: 0 0 10px;
+}
+
+option {
+	padding: 0 10px 0 2px;
+}
+
+form p {
+	margin: 5px 0;
+	font-weight: bold;
+}

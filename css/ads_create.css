@@ -1,0 +1,83 @@
+label {
+	display: block;
+	margin: 10px 0 0;
+}
+
+input.txt, textarea {
+	padding: 2px;
+	width: 200px;
+}
+
+input.btn {
+	margin: 20px 0 0 0;
+}
+
+textarea {
+	height: 50px;
+}
+
+
+#ad_form, #ad_preview, #ad_campaign, #ad_legal {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+#ad_preview {
+	border: 2px solid #eee;
+	height: 205px;
+	width: 150px;
+	padding: 10px;
+	margin: 25px 0 0 0;
+}
+
+#ad_title {
+	color: #03c;
+	font-size: 16pd;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 0 0 5px;
+}
+
+#ad_description {
+	padding: 5px 0;
+}
+
+#ad_campaign {
+	margin: 0 0 20px 25px;
+	padding: 0 0 0 25px;
+	border-left: 1px solid #ccc;
+	width: 210px;
+}
+
+#ad_legal {
+	margin: 0 0 20px 25px;
+	padding: 0 0 0 25px;
+	border-left: 1px solid #ccc;
+	width: 190px;
+	height: 275px;
+	background-color: #eee;
+}
+
+.fileUploadQueueItem {
+	font: 11px Verdana, Geneva, sans-serif;
+	background-color: #F5F5F5;
+	border: 3px solid #E5E5E5;
+	margin-top: 5px;
+	padding: 10px;
+	width: 140px;
+}
+.fileUploadQueueItem .cancel {
+	float: right;
+}
+.fileUploadProgress {
+	background-color: #FFFFFF;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #C5C5C5;
+	border-bottom: 1px solid #C5C5C5;
+	margin-top: 10px;
+	width: 100%;
+}
+.fileUploadProgressBar {
+	background-color: #0099FF;
+}

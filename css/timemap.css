@@ -1,0 +1,54 @@
+#timelinecontainer, #timeline { 
+	height: 400px;
+}
+
+#mapcontainer, #map { 
+	height: 500px; 
+}
+
+.story-thumb {
+	float: left;
+	margin: 0 10px 5px 0;
+	height: 70px;
+}
+
+.story-thumb a img {
+	border: 1px solid #aaa;
+	padding: 1px;
+}
+
+.story-summary {
+	clear: left;
+}
+
+.story-location {
+	color: #777;
+}
+
+.sub-story {
+	margin: 0 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.sub-story .story-summary {
+	color: #555;
+	clear: none;
+	width: 450px;
+}
+
+.spacer {
+	margin: 10px;
+	text-align: center;
+}
+
+.chain-thumb {
+	float: left;
+	margin: 0 10px 5px 0;
+	height: 30px;
+}
+
+.chain-thumb a img {
+	border: 1px solid #aaa;
+	padding: 1px;
+}

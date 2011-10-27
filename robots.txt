@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /vote
+Disallow: /delete
+Disallow: /js/
+Disallow: /css/
+Disallow: /settings
+Disallow: /settings/
+Disallow: /captcha
+Disallow: /captcha/

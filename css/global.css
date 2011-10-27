@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	font-size: 80%;
+	background-color: #333;
+}
+
+textarea {
+	font-size: 12px;
+}
+
+.error {
+	color: #f00;
+	font-weight: bold;
+	margin: 0 0 5px;
+}
+
+#container {
+	background-color: #fff;
+}
+
+#main-content {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 0 100px;
+	min-height: 400px;
+}
+
+#header {
+	padding: 20px 0 10px;
+	border-bottom: 1px solid #aaa;
+	width: 960px;
+	margin: auto;
+}
+
+#header h2 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+
+#header h2 a img {
+	border: none;
+}
+
+#top-options {
+	float: right;
+}
+
+#top-options div#user-options, #top-options form  {
+	float: left;
+}
+
+#user-options {
+	margin: 3px 10px 0 0;
+}
+
+#pages {
+	margin: 30px 0;
+	text-align: center;
+}
+
+#pages span {
+	margin: 0 0 0 5px;
+	color: #999;
+	padding: 5px 10px;
+	background-color: #fff;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	width: 18px;
+}
+
+#pages span.spacer {
+	margin: 0 0 0 5px;
+	padding: 5px;
+	border: none;
+}
+
+#pages a {
+	font-weight: bold;
+	color: #999;
+	padding: 5px 10px;
+	background-color: #eee;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	width: 18px;
+}
+
+#pages a:hover {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	color: #c33;
+}
+
+p {
+	padding: 6px 0;
+}
+
+a {
+	color: #03c;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #CC3333;
+}
+
+#footer-container {
+	clear: both;
+	padding: 10px;
+	background: #333333 url('/img/footer.gif') repeat-x top left;
+}
+
+#footer {
+	padding: 5px;
+	height: 100px;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	color: #999;
+	clear: both;
+}
+
+#footer a {
+	color: #ccc;
+}
+
+#disclaimer {
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+	background: #CC3333 url('/img/disclaimer.gif') repeat-x bottom left;
+	color: #fff;
+	height: 30px;
+}
+
+#disclaimer div {
+	width: 960px;
+	line-height: 30px;
+	margin: auto;
+}
+
+#disclaimer h2 {
+	margin: 0 10px 5px 0;
+	padding: 0 0 10px 0;
+	float: left;
+	color: #fff;
+}
+
+
+
+#messages {
+	padding: 10px;
+	background-color: #D7E8D8;
+	border-bottom: 4px solid #EAF4EB;
+	width: 940px;
+	margin: auto;
+}
+
+abbr {
+	border-bottom: none;
+}
+
+#manage-invites {
+	font-size: 12px;
+	float: right;
+	font-weight: normal;
+}
