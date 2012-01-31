@@ -1,0 +1,20 @@
+Welcome to SHOUTT
+
+SHOUTT is a social news service for Trinidad & Tobago for users to share their news of happenings around Trinidad. Users can geolocate stories and track them by time as well.
+
+Here's how it looks:
+http://bit.ly/shoutt
+
+
+
+Installation Instructions
+--------------------------------
+
+These instructions are application specific. They assume you've already configured your local server properly.
+
+1. Import the db > schema.sql file into mysql as a new database
+
+2. Edit the system > application > config > database.php.sample to suit your specifications, then rename the file to "database.php" (removing the ".sample" at the end)
+
+And you're done.
+
