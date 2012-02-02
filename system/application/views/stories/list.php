@@ -24,9 +24,6 @@
             </ul>
         </div>
 		<?php $this->load->view('commons/invite_form'); ?>
-		<div id="facebook">
-			<iframe src="http://www.facebook.com/plugins/likebox.php?id=180889814159&width=200&height=287&header=true&connections=6&stream=false" scrolling="no" frameborder="0" style="border:none;overflow:hidden;width:200px;height:287px" allowTransparency="true"></iframe>
-		</div>
 		<div id="youtube">
 			<h3>CNC3 News</h3>
 			<div id="youtube_feed"></div>
